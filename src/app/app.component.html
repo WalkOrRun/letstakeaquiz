@@ -1,0 +1,7 @@
+<!-- <app-login></app-login> -->
+<nav>
+  <a (click) = "toggleEditor('create')"> Create quiz</a>
+  <a (click) = "toggleEditor('home')"> Home </a>
+</nav>
+<app-create-set *ngIf = "showCreate"> </app-create-set>
+<app-home *ngIf = "showHome"></app-home>
