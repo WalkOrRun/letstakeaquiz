@@ -11,10 +11,11 @@ import { CardService } from './card.service';
 import { AccountService } from './account.service';
 import { HomeComponent } from './home/home.component';
 import { ViewSubjectComponent } from './view-subject/view-subject.component';
+import { CreateAccountComponent } from './create-account/create-account.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, ReactiveFormsModule ],
-  declarations: [ AppComponent, HelloComponent, LoginComponent, CreateSetComponent, HomeComponent, ViewSubjectComponent ],
+  declarations: [ AppComponent, HelloComponent, LoginComponent, CreateSetComponent, HomeComponent, ViewSubjectComponent, CreateAccountComponent ],
   bootstrap:    [ AppComponent ],
   providers: [SetService, CardService, AccountService]
 })
